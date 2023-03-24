@@ -1,0 +1,75 @@
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page {
+  margin: 50px;
+  margin-top: 20px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+}
+
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  height: 35px;
+  border: solid 2px transparent;
+}
+.input:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+.invalidDiv {
+  position: relative;
+}
+.invalidMessage {
+  user-select: none;
+  position: absolute;
+  font-size: 15px;
+  color: red;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2px 2px 0 2px;
+  top: -11px;
+  left: 1.8px;
+}
+.invalidInput {
+  height: 35px;
+  border: solid 2px red;
+  width: 100%;
+}
+.invalidInput:focus {
+  border-color: red;
+  outline: none;
+}
+.primaryBtn {
+  margin: 30px 0 10px 0;
+  font-size: 16px;
+  text-align: center;
+  font-family: "interhyp" sans-serif;
+  color: #fff;
+  width: 100px;
+  background-color: var(--color-primary);
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+.primaryBtn:hover {
+  background-color: var(--color-primary-hover);
+}
+@media screen and (max-width: 500px) {
+  .flexbox {
+    flex-direction: column;
+  }
+}

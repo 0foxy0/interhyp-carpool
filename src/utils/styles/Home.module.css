@@ -1,0 +1,59 @@
+.spaceTop {
+  margin-top: 2rem;
+}
+.createEntryBtn {
+  position: fixed;
+  top: 0;
+  right: -3.5px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2rem;
+  padding: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.filterSelect {
+  width: 100%;
+  max-width: 400px;
+  padding: 7px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+.filterSelect:focus {
+  border: none;
+  outline: none;
+}
+.popup {
+  background-color: var(--color-dark);
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 97%;
+  max-width: 550px;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+.closeBtn {
+  color: #fff;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+}
+.searchIcon {
+  user-select: none;
+  text-align: center;
+}

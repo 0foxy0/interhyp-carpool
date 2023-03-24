@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #ee7900;
+  --color-primary-hover: #a25200;
+  --color-primary-ripple: #ffd1a2;
+  --color-primary-hover-ripple: #ee7900;
+  --color-secondary: #579eb0;
+  --color-secondary-ripple: #d0e4e9;
+  --color-secondary-hover: #3c717f;
+  --color-secondary-hover-ripple: #579eb0;
+  --color-tertiary: #8bc44a;
+  --color-tertiary-ripple: #e1f0d1;
+  --color-tertiary-hover: #649230;
+  --color-tertiary-hover-ripple: #8bc44a;
+  --color-dark: #464646;
+}
+@font-face {
+  font-family: "interhyp";
+  src: url("./../fonts/TTNorms.otf");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "interhyp", sans-serif;
+  background: #1a1a1a;
+  color: #fff;
+}
+* {
+  box-sizing: border-box;
+}

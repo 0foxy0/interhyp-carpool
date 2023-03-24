@@ -1,0 +1,61 @@
+.entry {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 25px;
+  background-color: #303030;
+  padding: 15px 75px;
+  border-radius: 10px;
+  border: 1px solid var(--color-primary-hover);
+  margin: 0 0 1.5rem 0;
+  box-shadow: 0px 1px 5px 0px var(--color-primary);
+  text-align: center;
+}
+.trashCan {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: #ff3838;
+}
+.teamsLink {
+  color: #fff;
+}
+.teamsLink:visited {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+.route {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.participantList {
+  margin: 0;
+}
+.participantList:first-of-type {
+  margin-top: 21px;
+  margin-bottom: 5px;
+}
+.participant {
+  color: #fff;
+  text-decoration: underline solid 1px #fff;
+  margin-right: 10px;
+}
+.participant:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.participant:last-of-type {
+  margin: 0;
+}
+.signBtn {
+  background: transparent;
+  border: solid 1px #e5e5e5;
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.signBtn:hover {
+  background-color: #808080;
+}
